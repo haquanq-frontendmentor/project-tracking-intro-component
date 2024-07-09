@@ -238,6 +238,16 @@ a {
         opacity: 0.5;
     }
 }
+@media screen and (min-width: 32em) {
+    .intro__image__wrapper {
+        padding-top: 3.1875rem;
+    }
+    .intro__image {
+        height: initial;
+        width: 100%;
+        margin: 0;
+    }
+}
 
 @media screen and (min-width: 48em) {
     .nav__menu__btn {
@@ -274,10 +284,7 @@ a {
         border-radius: 100%;
         background-color: var(--clr-gray-300);
     }
-    .intro__image__wrapper {
-        padding-top: 3.1875rem;
-        width: 50%;
-    }
+
     .intro__headline {
         font-size: 4rem;
         margin-bottom: 2rem;
@@ -306,7 +313,12 @@ a {
         padding: 4rem 0;
     }
 
+    .intro__image__wrapper {
+        width: 50%;
+    }
     .intro__image {
+        display: block;
+        width: initial;
         height: 464px;
         margin-left: 1.75rem;
     }
