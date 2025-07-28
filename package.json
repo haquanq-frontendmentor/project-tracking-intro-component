@@ -1,13 +1,15 @@
 {
   "name": "fm-project-tracking-intro-component",
   "description": "Solution for frontendmentor.io challenge: project-tracking-intro-component",
-  "devDependencies": {
-    "browser-sync": "^3.0.2",
-    "prettier": "^3.6.2"
-  },
-  "scripts": {
-    "dev": "browser-sync start -s app -f app --no-ui"
-  },
   "author": "haquanq",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite serve --port 5000",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "vite": "^6.3.5"
+  }
 }
