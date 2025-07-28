@@ -1,0 +1,13 @@
+:root {
+    --color-red: hsl(0, 100%, 68%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-blue-500: hsl(230, 29%, 20%);
+    --color-blue-300: hsl(230, 11%, 40%);
+    --color-gray-300: hsl(231, 7%, 65%);
+    --color-gray-100: hsl(207, 33%, 95%);
+
+    --font-base: "Barlow", sans-serif;
+    --font-accent: "Barlow Condensed", sans-serif;
+    --font-bold: 700;
+    --font-normal: 400;
+}
