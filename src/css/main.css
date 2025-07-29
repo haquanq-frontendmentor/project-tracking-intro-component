@@ -6,13 +6,7 @@
 @import "./components/intro.css";
 
 .header {
-    overflow-x: hidden;
     position: relative;
-    min-height: 100vh;
-    font-family: var(--font-base);
-    color: var(--color-blue-300);
-    font-size: 1.125rem;
-    line-height: 1;
 
     &::after {
         content: "";
@@ -29,6 +23,15 @@
         background-color: var(--color-gray-100);
         border-bottom-left-radius: 4rem;
     }
+
+    &__container {
+        margin: 0 auto;
+        width: min(100vw - 4rem, 69.375rem);
+    }
+}
+
+.main {
+    overflow-x: hidden;
 
     &__container {
         margin: 0 auto;
