@@ -1,9 +1,9 @@
-@import "./css//base/fonts.css";
-@import "./css//base/reset.css";
-@import "./css/base/variables.css";
+@import "./base/fonts.css";
+@import "./base/reset.css";
+@import "./base/variables.css";
 
-@import "./css/components/navigation.css";
-@import "./css/components/intro.css";
+@import "./components/navigation.css";
+@import "./components/intro.css";
 
 .header {
     overflow-x: hidden;
