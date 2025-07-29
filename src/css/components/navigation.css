@@ -24,6 +24,10 @@
         height: var(--line-height);
         transition: transform 300ms ease;
         transform-origin: center;
+
+        @media (prefers-reduced-motion: reduce) {
+            transition: none;
+        }
     }
 
     &__menu-btn[aria-expanded="true"] span:nth-child(1) {
