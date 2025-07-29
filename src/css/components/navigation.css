@@ -7,37 +7,35 @@
     font-weight: var(--font-bold);
 
     &__menu-btn {
+        --line-gap: 0.3125rem;
+        --line-height: 0.125rem;
+        --line-width: 1.5rem;
+
+        display: grid;
+        gap: var(--line-gap);
         font-size: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         padding: 0.625rem 0;
     }
 
-    &__menu-btn span span {
+    &__menu-btn span {
         display: block;
         background-color: var(--color-blue-300);
-        width: 1.5em;
-        height: 0.125em;
+        width: var(--line-width);
+        height: var(--line-height);
         transition: transform 300ms ease;
+        transform-origin: center;
     }
 
-    &__menu-btn span span:nth-child(2) {
-        margin: 0.3125em 0;
+    &__menu-btn[aria-expanded="true"] span:nth-child(1) {
+        transform: translateY(calc(var(--line-gap) + 2px)) rotate(45deg);
     }
 
-    &__menu-btn.pressed span span:nth-child(1) {
-        transform: rotate(45deg);
-        margin-bottom: -0.4375rem;
-    }
-
-    &__menu-btn.pressed span span:nth-child(2) {
+    &__menu-btn[aria-expanded="true"] span:nth-child(2) {
         opacity: 0;
     }
 
-    &__menu-btn.pressed span span:nth-child(3) {
-        margin-top: -0.4375rem;
-        transform: rotate(-45deg);
+    &__menu-btn[aria-expanded="true"] span:nth-child(3) {
+        transform: translateY(calc(var(--line-gap) * -1 - 2px)) rotate(-45deg);
     }
 
     &__logo {

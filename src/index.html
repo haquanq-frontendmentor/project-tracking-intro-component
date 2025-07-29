@@ -17,14 +17,17 @@
           <a class="nav__logo-link" href="" aria-label="Homepage" aria-current="page">
             <img class="nav__logo" src="./assets/images/logo.svg" alt="Logo" />
           </a>
-          <button class="nav__menu-btn focus-visible" aria-label="Mobile menu">
-            <span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
+          <button
+            class="nav__menu-btn focus-visible"
+            aria-label="Mobile menu"
+            aria-controls="mobile-menu-control"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
           </button>
-          <ul class="nav__list">
+          <ul class="nav__list" id="mobile-menu-control">
             <li class="nav__item"><a class="nav__link focus-visible" href="">Product</a></li>
             <li class="nav__item"><a class="nav__link focus-visible" href="">Features</a></li>
             <li class="nav__item"><a class="nav__link focus-visible" href="">Pricing</a></li>
