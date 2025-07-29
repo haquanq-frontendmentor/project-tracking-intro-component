@@ -5,7 +5,7 @@
 @import "./css/components/navigation.css";
 @import "./css/components/intro.css";
 
-.header__container {
+.header {
     overflow-x: hidden;
     position: relative;
     min-height: 100vh;
@@ -13,20 +13,25 @@
     color: var(--color-blue-300);
     font-size: 1.125rem;
     line-height: 1;
-}
 
-.header__container::after {
-    content: "";
-    display: block;
-    z-index: -1;
-    position: absolute;
-    --right-offset: calc(calc(clamp(0rem, 100vw, 90rem) - 100%) / 2);
-    --auto-width: clamp(9.375rem, 50% + var(--right-offset), 44.0625rem);
+    &::after {
+        content: "";
+        display: block;
+        z-index: -1;
+        position: absolute;
+        --right-offset: calc(calc(clamp(0rem, 100vw, 90rem) - 100%) / 2);
+        --auto-width: clamp(9.375rem, 50% + var(--right-offset), 44.0625rem);
 
-    top: 0;
-    right: calc(-1 * var(--right-offset));
-    width: var(--auto-width);
-    height: 26.5625rem;
-    background-color: var(--color-gray-100);
-    border-bottom-left-radius: 4rem;
+        top: 0;
+        right: calc(-1 * var(--right-offset));
+        width: var(--auto-width);
+        height: 26.5625rem;
+        background-color: var(--color-gray-100);
+        border-bottom-left-radius: 4rem;
+    }
+
+    &__container {
+        margin: 0 auto;
+        width: min(100vw - 4rem, 69.375rem);
+    }
 }

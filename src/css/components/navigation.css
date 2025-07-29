@@ -1,7 +1,5 @@
 .nav__wrapper {
-    margin: 0 auto;
     padding: 2rem 0;
-    width: min(100vw - 4rem, 69.375rem);
     display: flex;
     align-items: center;
     justify-content: space-between;
