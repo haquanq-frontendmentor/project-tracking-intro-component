@@ -1,46 +1,5 @@
+@import "./css//base/reset.css";
 @import "./css/base/variables.css";
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-}
-
-body {
-    -webkit-font-smoothing: antialiased;
-}
-
-ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-button {
-    padding: 0;
-    border: none;
-    font: inherit;
-    cursor: pointer;
-    background: transparent;
-    text-transform: uppercase;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    overflow-wrap: break-word;
-}
-
-a {
-    text-decoration: none;
-    font: inherit;
-    color: inherit;
-    letter-spacing: inherit;
-}
 
 .header__container {
     overflow-x: hidden;
