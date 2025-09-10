@@ -1,4 +1,4 @@
-## Frontend Mentor - Project tracking intro component solution
+## Frontend Mentor - Project Tracking Intro Component Solution
 
 This is a solution to the [Project tracking intro component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/project-tracking-intro-component-5d289097500fcb331a67d80e). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -20,21 +20,21 @@ This is a solution to the [Project tracking intro component challenge on Fronten
   /></a>
 </p>
 
-## Table of contents
+## Table of Contents
 
 - [Project overview](#sunrise-project-overview)
 - [Development workflow](#stars-development-workflow)
 - [Working in this repository](#astronaut-working-in-this-repository)
 
-## :sunrise: Project overview
+## :sunrise: Project Overview
 
-### Challenge equirements
+### Challenge Requirements
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Create the background shape using code
 
-### Todo
+### Status
 
 Accessibility
 
@@ -45,52 +45,45 @@ Accessibility
 
 ![](./docs/design/desktop-design.jpg)
 
-## :stars: Development workflow
+## :stars: Tech Stack and Approach
+
+### Built With
+
+- **HTML5** – Semantic structure
+- **CSS Grid & Flexbox** – Layout
+- **PostCSS** – Nested rules, custom media queries, future CSS features, minification
+- **Stylelint** – CSS linting, code style consistency
+- **JavaScript** - Interactivity and application logic
+- **Vite** - Fast development server, production build and easy configuration
 
 ### Approach
 
-Site built with mobile-first workflow to prioritize mobile devices, made accessible using [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/).
+- Mobile-first workflow for better performance on smaller devices
+- Accessibility guided by [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/)
 
-### Tools
+## :leaves: Local Development
 
-- **PostCSS:** use SASS-like features in vanilla CSS, interpolation and minification..
-- **JavaScript**: add interactivity for components, handle application logic.
-- **Vite**: fast development server, production build and easy configuration.
-- **Prettier**: code formatter to maintain consistent coding style.
-- **Stylelint**: lint for CSS coding convention mistakes.
-- **Husky & lint-staged:** manage git hooks (primary used for pre-commit hook: linting, formatting).
+### Prerequisites
 
-### Deployment
+Install the following:
 
-- Deployed on github page using Github Actions (manually triggered).
+- Git (latest LTS recommended)
+- Node.js (latest LTS recommended)
 
-## :astronaut: Working in this repository
-
-### Presequisites
-
-Having these tools installed:
-
-- Git (prefer lastest LTS version)
-- NodeJS (prefer latest LTS version)
-
-### Clone this project to your machine
-
-Open new terminal, run the following command:
+### Setup
 
 ```
 git clone https://github.com/haquanq-frontendmentor/project-tracking-intro-component.git
-```
-
-Then, run `npm install` to install all dependencies.
-
-```
+cd project-tracking-intro-component
 npm install
 ```
 
-### Start development server
-
-In terminal, run `npm run dev` to start development server:
+### Start Development Server
 
 ```
 npm run dev
 ```
+
+## :maple_leaf: Deployment
+
+Deployed to Github Pages via Github Actions (manually triggered).
