@@ -22,9 +22,10 @@ This is a solution to the [Project tracking intro component challenge on Fronten
 
 ## Table of Contents
 
-- [Project overview](#sunrise-project-overview)
-- [Development workflow](#stars-development-workflow)
-- [Working in this repository](#astronaut-working-in-this-repository)
+- [Project Overview](#sunrise-project-overview)
+- [Tech Stack and Approach](#stars-tech-stack-and-approach)
+- [Local Development](#leaves-local-development)
+- [Deployment](#maple_leaf-deployment)
 
 ## :sunrise: Project Overview
 
