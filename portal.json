@@ -1,0 +1,15 @@
+{
+  "name": "Project Tracking Intro Component",
+  "featured": false,
+  "colors:": {
+    "brand": "#FF5D5E"
+  },
+  "images": {
+    "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/project-tracking-intro-component/main/docs/preview.jpg"
+  },
+  "frontendmentor": {
+    "difficulty": "junior",
+    "challengeUrl": "https://www.frontendmentor.io/challenges/project-tracking-intro-component-5d289097500fcb331a67d80e",
+    "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-pixel-perfect---html-and-css-and-js-01BVtgRs9d"
+  }
+}
